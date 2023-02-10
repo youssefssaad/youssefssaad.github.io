@@ -1,0 +1,283 @@
+*{
+   font: arial;
+   color: #6c7074;
+}
+
+
+ nav {
+    display: flex;
+    text-align: center;
+    border-bottom: 0.5px solid #6c7074;
+    border-top: 3px solid #631396;
+}
+ 
+ 
+ nav > ul {
+  margin: 0 auto;
+  padding:20px;
+}
+
+ 
+ nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    flex: 1;
+    justify-content: centre;
+    padding: 25px;
+    max-width: 110px;
+}
+ 
+ 
+ li > a{
+    color: #6c7074;
+    text-decoration: none;
+
+}
+ 
+ 
+ li > a:hover, a:active { 
+  color: #631396;
+}
+ 
+ 
+ figure{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-right: 0.5px solid #6c7074;
+    display: float;
+    flex-direction: column;
+    align-items: center;  
+    width: 30%; 
+    padding: 20px;
+    height: 100%;
+}
+
+
+ figure > img{
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #6c7074;
+  border: 1px solid #FFFFFF;
+  height: fixed;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ 
+ figure > h1,h3,h4{
+  text-align: center;
+  font-family: Calibri; 
+  font-weight: normal;   
+ }
+
+
+ div{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;  
+    width: 60%; 
+    right: 0px;
+ }
+ 
+div > h2{
+   text-align: left;
+   font-family: Calibri; 
+   font-weight: normal;
+   font-size: 40px;
+}
+
+
+ div ul,li{
+  list-style-type: "- "; 
+  font-weight: normal; 
+  color: #6c7074;
+  line-height: 2;
+  padding:10px;
+  width: 70%;
+ }
+ 
+ tr{
+    font-size: 100%;
+    font-weight: bold; 
+    color: #6c7074;
+ }
+ 
+ table, th{
+   width: 800px;
+   height: 30px;
+   border-collapse: collapse;
+   text-align: opposite;
+}
+
+td{
+   font-size: 20px;
+   font-weight: normal;
+   height: 40px;
+   display: block;
+}
+
+footer{
+   position: fixed;
+   background-color: #FFFFFF;
+   border-top: 0.5px solid #6c7074;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   font-size: 15px;
+}
+
+
+
+.stable{
+   zoom:2.5;
+   display: block; 
+   height:20px;
+ }
+  
+  .sfont{
+   display: block;
+   height: 20px;
+   font-size: 20px ;
+   font-weight: normal;
+  }
+  
+  .title{
+   font-size: 20px;
+  }
+
+  
+  .next{
+   padding-left:300px;
+   font-size: 18px;
+   text-align: right;
+  }
+
+  .below{
+   font-size: 14px;
+  }
+  
+  p.below{
+   margin-top:10%;
+   font-size: 16px;
+   color: #808080
+  }
+
+ a.below{
+  text-decoration: none; 
+  color: #51087E;
+ }
+
+ .sptable {
+  border-spacing: 30px;
+ }
+
+ 
+ 
+ @media only screen and (max-width: 600px){
+
+    figure{
+     display:static;
+     position: absolute;
+     margin:0 auto;
+     border-bottom: 0.5px solid #6c7074;
+     display: block;
+     flex-direction: row;
+     align-items: center;  
+     width: 100%; 
+     height: 40%;
+     top: 90px;
+  }
+   
+  figure > img{
+   border-radius: 50%;
+   box-shadow: 2px 2px 2px #6c7074;
+   border: 1px solid #FFFFFF;
+   height: auto;
+   max-width: 20%;
+   display: inside;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+   div{
+     position: fixed;
+     margin:auto;
+     justify-content:center;
+     flex-direction: row;
+     height: 50%;
+     width: 100%; 
+     bottom:0;
+   }
+
+
+   nav > ul > li { 
+     list-style-type: none;
+     display: inline;
+     flex: 1;
+     justify-content: centre;
+     padding: 20px;
+     max-width: 100px;
+   }
+   
+   div h1{
+      font-size: 190%;
+      text-align: center;
+   }
+
+
+.stable{
+  zoom:1.5;
+  display: block; 
+  height:10px;
+ }
+ 
+ .sfont{
+  display: block;
+  height: 10px;
+  font-size: 10px ;
+  font-weight: normal;
+ }
+ 
+ .title{
+   font-size: 20px ;
+  
+  }
+  .next{
+  
+   padding-left:100px;
+   font-size: 18px;
+   text-align: right;
+  }
+  .below{
+   font-size: 14px;
+  }
+  
+  p.below{
+   margin-top:10%;
+   font-size: 16px;
+   color: #808080
+  }
+
+ a.below{
+  text-decoration: none; 
+  color: #51087E;
+ }
+
+ .sptable {
+  border-spacing: 15px;
+ }
+ 
+ div ul,li{
+   list-style-type: "- "; 
+   font-weight: normal; 
+   color: #6c7074;
+   line-height: 1;
+   width: 70%;
+  }}
